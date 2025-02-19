@@ -1,4 +1,4 @@
-An file compressing and decompressing app built with cpp and Dear ImGui as the UI interface. \
+An file compressing and decompressing app built with cpp and Dear ImGui as the UI interface. 
 
 Known issues
 -
