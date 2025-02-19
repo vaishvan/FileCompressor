@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{785e7be5-be3a-4a6e-97eb-71b07e39bb08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{d8de4fbe-102c-47c8-8bf3-faef70595ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external">
+      <UniqueIdentifier>{df810614-853f-4adf-ae5e-46e0b53341f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\glfw">
+      <UniqueIdentifier>{7f1d8742-e521-4c9d-a9e0-5c03abe7b129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\glfw\include">
+      <UniqueIdentifier>{c3cde6be-26f3-4ca7-853a-693680d5d0d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\glfw\lib-vc2022">
+      <UniqueIdentifier>{d71d9cea-ee45-48d1-9fba-7549242a5f6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\imgui">
+      <UniqueIdentifier>{51580ec6-1017-419c-9fa9-897ad2930e80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="compressor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="huffman.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="rle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="file_dialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\imgui-master\imgui\imgui_demo.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\imgui-master\imgui\imgui_draw.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\imgui-master\imgui\imgui_tables.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\imgui-master\imgui\imgui_widgets.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\imgui-master\imgui\imgui.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\imgui-master\imgui\backends\imgui_impl_glfw.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\imgui-master\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="compressor.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="huffman.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="rle.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="file_dialog.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\include\GLFW\glfw3.h">
+      <Filter>external\glfw\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\include\GLFW\glfw3native.h">
+      <Filter>external\glfw\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\imgui-master\imgui\imgui.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\imgui-master\imgui\backends\imgui_impl_glfw.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\imgui-master\imgui\backends\imgui_impl_opengl3.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\compression_error.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\Downloads\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\lib-vc2022\glfw3.lib">
+      <Filter>external\glfw\lib-vc2022</Filter>
+    </Library>
+    <Library Include="..\..\..\..\Downloads\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\lib-vc2022\glfw3_mt.lib">
+      <Filter>external\glfw\lib-vc2022</Filter>
+    </Library>
+    <Library Include="..\..\..\..\Downloads\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\lib-vc2022\glfw3dll.lib">
+      <Filter>external\glfw\lib-vc2022</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\lib-vc2022\glfw3.dll">
+      <Filter>external\glfw\lib-vc2022</Filter>
+    </None>
+  </ItemGroup>
+</Project>
